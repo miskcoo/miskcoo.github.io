@@ -11,7 +11,7 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 
 * <span class="paper-title">**Nonparametric Score Estimators**</span> 
   **Yuhao Zhou**, Jiaxin Shi, Jun Zhu  <br/>
-  _International Conference on Machine Learning **(ICML)**, 2020._  <br/>
+  _International Conference on Machine Learning_ (ICML), 2020.  <br/>
   [[arxiv]](https://arxiv.org/abs/2005.10099) 
   [[code]](https://github.com/miskcoo/kscore) 
   [[slides]](http://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
@@ -20,4 +20,4 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 
 * <span class="paper-title">**Spectral Estimators for Gradient Fields of Log-Densities**</span>
   **Yuhao Zhou**, Jiaxin Shi, Jun Zhu  <br/>
-  _[ICML Workshop on Stein’s Method](https://steinworkshop.github.io/), Long Beach, USA, 2019._
+  _[ICML Workshop on Stein’s Method](https://steinworkshop.github.io/)_, Long Beach, USA, 2019.
