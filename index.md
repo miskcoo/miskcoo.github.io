@@ -1,4 +1,4 @@
-I am a Ph.D. student (from 2020) in the Department of Computer Science and Technology at [Tsinghua University](http://www.tsinghua.edu.cn), advised by [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
+I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](http://www.tsinghua.edu.cn), advised by [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 
 I obtained my Bachelor of Engineering degree in Tsinghua University, majored in _Computer Science and Technology_. I also obtained my second Bachelor of Science degree in Tsinghua University, majored in _Pure and Applied Mathematics_.
 
