@@ -43,6 +43,32 @@
 		<span class="site-footer-credits">Last modified: {{ site.time | date_to_long_string }}</span>
       </footer>
     </main>
+
+	<script>
+		function setupToggle(class_name, text_content, text_content_toggle) {
+			var nodes = document.getElementsByClassName(class_name);
+			for(var i = 0; i < nodes.length; ++i) {
+				var item = nodes.item(i);
+				var links = item.parentNode.getElementsByTagName('a');
+				for(var j = 0; j < links.length; ++j) {
+					if(links.item(j).textContent == text_content) {
+						links.item(j).href = "javascript: void(0)";
+						links.item(j).onclick = function(item) {
+							return function() {
+								item.classList.toggle('is-visible');
+								if(this.textContent == text_content && text_content_toggle)
+									this.textContent = text_content_toggle;
+								else this.textContent = text_content;
+							};
+						}(item);
+						break;
+					}
+				}
+			}
+		}
+		setupToggle('paper-abstract', '[abstract]', '[hide abstract]');
+		setupToggle('paper-bibtex', '[bibtex]', '[hide bibtex]');
+	</script>
   </body>
 </html>
 

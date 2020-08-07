@@ -26,3 +26,26 @@
 	display: block;
 	margin-bottom: 0.25rem;
 }
+
+ul li:not(:first-of-type) .paper-title {
+	padding-top: 1rem;
+}
+
+.paper-more {
+	margin-bottom: 1rem;
+	word-break: normal;
+	padding: 0.8rem;
+	font-size: 0.98rem;
+	line-height: 1.45;
+	border-radius: 0.3rem;
+    color: $code-text-color;
+    word-wrap: normal;
+    background-color: $code-bg-color;
+    border: solid 1px $border-color;
+    border-radius: 0.3rem;
+	display: none;
+}
+
+.paper-more.is-visible {
+	display: block;
+}
