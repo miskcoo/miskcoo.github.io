@@ -31,7 +31,7 @@ ul li:not(:first-of-type) .paper-title {
 	padding-top: 1rem;
 }
 
-.paper-more {
+.paper-toggle {
 	margin-bottom: 1rem;
 	word-break: normal;
 	padding: 0.8rem;
@@ -46,6 +46,6 @@ ul li:not(:first-of-type) .paper-title {
 	display: none;
 }
 
-.paper-more.is-visible {
+.paper-toggle.is-visible {
 	display: block;
 }
