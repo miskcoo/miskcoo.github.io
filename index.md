@@ -11,7 +11,7 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 
 * <span class="paper-title">Nonparametric Score Estimators</span> 
   **Yuhao Zhou**, Jiaxin Shi, Jun Zhu.  <br/>
-  _International Conference on Machine Learning_ (ICML), 2020.  <br/>
+  _International Conference on Machine Learning (ICML)_, 2020.  <br/>
   [[arxiv]](https://arxiv.org/abs/2005.10099) 
   [[code]](https://github.com/miskcoo/kscore) 
   [[slides]](http://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
