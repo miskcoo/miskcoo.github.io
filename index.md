@@ -9,7 +9,9 @@ I obtained my Bachelor of Engineering degree in Tsinghua University, majored in 
 * **Nonparametric Score Estimators**  <br/>
   **Yuhao Zhou**, Jiaxin Shi, Jun Zhu  <br/>
   _International Conference on Machine Learning **(ICML)**, 2020._  <br/>
-  [[arxiv]](https://arxiv.org/abs/2005.10099) [[code]](https://github.com/miskcoo/kscore) [[slides]](http://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
+  [[arxiv]](https://arxiv.org/abs/2005.10099) 
+  [[code]](https://github.com/miskcoo/kscore) 
+  [[slides]](http://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
 
 ### Workshop Papers & Other Abstracts
 
