@@ -1,7 +1,9 @@
-I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
+I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 
-I obtained my Bachelor of Engineering degree at Tsinghua University, majored in _Computer Science and Technology_. 
-I also obtained my second Bachelor of Science degree at Tsinghua University, majored in _Pure and Applied Mathematics_.
+I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
+I also received my second bachelor degree at Tsinghua University, majored in _Pure and Applied Mathematics_.
+
+Youc can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en), and [GitHub](http://github.com/miskcoo/)!
 
 ## Publications
 
