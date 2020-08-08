@@ -13,7 +13,7 @@
     {% endif %}
     <meta charset="UTF-8">
 
-	<title>{{ site.title }}</title>
+	<title>{{ page.title | default: site.title }}</title>
 	<meta name="google-site-verification" content="HAD2r2CbpF4JXZoDRv5OysLVauCuNhvPJ7B0c_eWbww" />
 	<meta name="description" content="Yuhao Zhou's Homepage" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
