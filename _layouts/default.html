@@ -53,7 +53,6 @@
 				var links = item.parentNode.getElementsByTagName('a');
 				for(var j = 0; j < links.length; ++j) {
 					if(links.item(j).textContent == text_content) {
-						links.item(j).href = "javascript: void(0)";
 						links.item(j).onclick = function(item) {
 							return function() {
 								item.classList.toggle('is-visible');
