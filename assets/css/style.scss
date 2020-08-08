@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
 
-
 .page-header {
 	@include large {
 		padding: 3rem 6rem;
@@ -24,8 +23,18 @@
 
 .paper-title {
 	display: block;
-	margin-bottom: 0.35rem;
+	// margin-bottom: 0.35rem;
+	font-size: large;
+	font-weight: normal;
 	color: #27262b;
+	font-family: -apple-system, BlinkMacSystemFont, 
+		"helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+}
+
+.author-me {
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 
+		"helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 }
 
 ul li:not(:first-of-type) .paper-title {
