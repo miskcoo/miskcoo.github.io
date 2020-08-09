@@ -17,7 +17,9 @@
 	<meta name="google-site-verification" content="HAD2r2CbpF4JXZoDRv5OysLVauCuNhvPJ7B0c_eWbww" />
 	<meta name="description" content="Yuhao Zhou's Homepage" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+	{% unless site.header_background %}
+	<meta name="theme-color" content="#157878">
+	{% endunless %}
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>

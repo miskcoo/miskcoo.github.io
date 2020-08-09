@@ -6,6 +6,13 @@
 	@import "nav";
 {% endif %}
 
+{% if site.header_background %}
+.page-header {
+	background-color: white;
+	background-image: {{ site.header_background }};
+}
+{% endif %}
+
 .project-tagline {
 	margin-top: 0rem;
 	margin-bottom: 0rem;
