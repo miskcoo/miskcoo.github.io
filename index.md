@@ -1,5 +1,6 @@
 ---
-title: [Yuhao Zhou | Home]
+title: Yuhao Zhou | Home
+nav-title: Home
 ---
 I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 

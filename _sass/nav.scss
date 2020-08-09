@@ -1,0 +1,252 @@
+@import "mixin";
+
+// override
+nav {
+	display: block;
+}
+
+// override
+.page-header {
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 4rem 4rem;
+  }
+
+  @include small {
+    padding: 2.5rem 1rem;
+  }
+}
+
+.navbar-custom {
+  z-index: 3;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 1.7;
+}
+
+.navbar-container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@include small {
+	#my-navbar {
+		opacity: 0;
+		transform: scaleX(0);
+		transform-origin: top right;
+		transition: all 200ms cubic-bezier(0.47, 0, 0.4, 0.99) 0ms;
+		-webkit-transform: scaleX(0);
+		-webkit-transform-origin: top right;
+		-webkit-transition: all 200ms cubic-bezier(0.47, 0, 0.4, 0.99) 0ms;
+
+		.navbar-collapse {
+			position: absolute;
+			right: 0;
+			border: none;
+			background: white;
+			padding-right: 15px;
+			padding-left: 15px;
+			overflow-x: visible;
+			box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+			box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.239216) 0px 1px 4px;
+			border-radius: 2px;
+			width: 170px;
+			height: 0px; // to solve container-mask-tags issue (default state).
+			transform: scaleY(0);
+			transform-origin: top right;
+			transition: transform 400ms cubic-bezier(0.32, 1, 0.23, 1) 0ms;
+			-webkit-transform: scaleY(0);
+			-webkit-transform-origin: top right;
+			-webkit-transition: -webkit-transform 400ms cubic-bezier(0.32, 1, 0.23, 1) 0ms;
+		}
+
+		.navbar-right {
+			margin: 7.5px -15px;
+			padding-left: 0;
+		}
+
+		a {
+			font-size: 13px;
+			line-height: 28px;
+			color: #777;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			position: relative;
+			display: block;
+			padding: 10px 15px;
+			text-decoration: none;
+			background-color: transparent;
+
+			&:focus, &:hover {
+				color: #333;
+				background-color: transparent;
+			}
+
+			&:active {
+				background: rgba(0,0,0,.12);
+			}
+		}
+
+		li {
+			float: none;
+			position: relative;
+			display: block;
+			opacity: 0;
+			transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+			-webkit-transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+		}
+
+		&.in {
+			transform: scaleX(1);
+			-webkit-transform: scaleX(1);
+			opacity: 1;
+			transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+			-webkit-transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+			.navbar-collapse {
+				transform: scaleY(1);
+				-webkit-transform: scaleY(1);
+				transition: transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
+				-webkit-transition: -webkit-transform 500ms
+				cubic-bezier(0.23, 1, 0.32, 1);
+			}
+			li {
+				opacity: 1;
+				transition: opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 205ms;
+				-webkit-transition: opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 205ms;
+			}
+		}
+	}
+}
+
+.navbar-collapse {
+	display: block;
+
+	.navbar-right {
+		@include medium {
+			float: right !important;
+		}
+
+		@include large {
+			float: right !important;
+		}
+
+		margin-right: -15px;
+		margin: 0;
+		padding-left: 0;
+		list-style: none;
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		padding-inline-start: 40px;
+	}
+
+	.navbar-right>li {
+		float: left;
+		position: relative;
+		display: block;
+	}
+
+	.navbar-right li a {
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-decoration: none;
+		background-color: transparent;
+
+		@include large {
+			padding: 20px;
+			font-size: 12px;
+			line-height: 20px;
+		}
+
+		@include medium {
+			padding: 10px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+
+	.navbar-right li a:hover,
+	.navbar-right li a:focus {
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	.navbar-right li a:active {
+		background: none;
+	}
+}
+
+.navbar-header {
+	display: none;
+
+	@include small {
+		margin-right: -15px;
+		display: block;
+	}
+}
+
+.navbar-toggle {
+	border-color: transparent;
+	padding: 19px 16px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+
+	&:focus, &:hover {
+		outline: 0;
+		background-color: inherit;
+	}
+	&:active {
+		background-color: rgba(255, 255, 255, 0.25);
+	}
+
+	.icon-bar {
+		width: 18px;
+		height: 2px;
+		display: block;
+		border-radius: 0;
+		background-color: #fff;
+	}
+
+	.icon-bar+.icon-bar {
+		margin-top: 3px;
+	}
+}
+
+.navbar-custom:before,
+.navbar-header:before,
+.navbar-collapse:before,
+.navbar-right:before {
+	display: table;
+	content: " ";
+}
+
+.navbar-custom:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.navbar-right:after {
+	display: table;
+	content: " ";
+	clear: both;
+}

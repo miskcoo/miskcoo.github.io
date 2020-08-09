@@ -1,23 +1,13 @@
 ---
 ---
 
-@import "jekyll-theme-cayman";
-
-.page-header {
-	@include large {
-		padding: 3rem 6rem;
-	}
-
-	@include medium {
-		padding: 2rem 4rem;
-	}
-
-	@include small {
-		padding: 2rem 1rem;
-	}
-}
+@import "cayman";
+{% if site.enable_nav %}
+	@import "nav";
+{% endif %}
 
 .project-tagline {
+	margin-top: 0rem;
 	margin-bottom: 0rem;
 }
 

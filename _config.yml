@@ -1,6 +1,7 @@
-# theme: jekyll-theme-cayman
 title: Yuhao Zhou
 google_analytics: UA-42145830-3
+
+enable_nav: false
 
 sass:
     style: compressed

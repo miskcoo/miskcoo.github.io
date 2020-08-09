@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
+	{% if site.enable_nav %}
+		{% include nav.html %}
+	{% endif %}
     <header class="page-header" role="banner">
 		<h1 class="project-name">{{ site.title }}</h1>
 		<h2 class="project-tagline">yuhaoz.cs [AT] gmail [DOT] com</h2>
