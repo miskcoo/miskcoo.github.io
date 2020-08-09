@@ -1,4 +1,6 @@
-theme: jekyll-theme-cayman
-title: [Yuhao Zhou]
-url: yuhaoz.com
+# theme: jekyll-theme-cayman
+title: Yuhao Zhou
 google_analytics: UA-42145830-3
+
+sass:
+    style: compressed
