@@ -36,9 +36,9 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 
 ### Workshop Papers & Other Abstracts
 
-* **A Semi-smooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}
+* **A Semi-smooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
-  _Preprint. Arxiv:2103.02855._
+  _Preprint. Arxiv:2103.02855._  
   [[arxiv]](https://arxiv.org/abs/2103.02855) 
   [[abstract]](javascript:void(0);)
 
