@@ -38,7 +38,7 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 ### Preprints & Other Abstracts
 
 * **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
-  Ziyu Wang*, **Yuhao Zhou**{:.author-me}*, Tongzheng Ren, Jun Zhu.  
+  Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
   _Preprint. Arxiv:2106.08750._  
   [[arxiv]](https://arxiv.org/abs/2106.08750) 
   [[abstract]](javascript:void(0);)
