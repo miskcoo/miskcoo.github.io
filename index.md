@@ -13,6 +13,15 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 
 ### Conference Papers
 
+* **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
+  Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
+  Short version (PDF) to appear in _NeurIPS 2021_.
+  [[arxiv]](https://arxiv.org/abs/2106.08750) 
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: Recent years have witnessed an upsurge of interest in employing flexible machine learning models for instrumental variable (IV) regression, but the development of uncertainty quantification methodology is still lacking. In this work we present a scalable quasi-Bayesian procedure for IV regression, building upon the recently developed kernelized IV models. Contrary to Bayesian modeling for IV, our approach does not require additional assumptions on the data generating process, and leads to a scalable approximate inference algorithm with time cost comparable to the corresponding point estimation methods. Our algorithm can be further extended to work with neural network models. We analyze the theoretical properties of the proposed quasi-posterior, and demonstrate through empirical evaluation the competitive performance of our method. 
+
 * **Nonparametric Score Estimators**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
   _International Conference on Machine Learning (ICML)_, 2020.  
@@ -36,15 +45,6 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
   ```
 
 ### Preprints & Other Abstracts
-
-* **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
-  Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
-  _Preprint. Arxiv:2106.08750._  
-  [[arxiv]](https://arxiv.org/abs/2106.08750) 
-  [[abstract]](javascript:void(0);)
-
-  {:.paper-abstract .paper-toggle}
-  **Abstract**: Recent years have witnessed an upsurge of interest in employing flexible machine learning models for instrumental variable (IV) regression, but the development of uncertainty quantification methodology is still lacking. In this work we present a scalable quasi-Bayesian procedure for IV regression, building upon the recently developed kernelized IV models. Contrary to Bayesian modeling for IV, our approach does not require additional assumptions on the data generating process, and leads to a scalable approximate inference algorithm with time cost comparable to the corresponding point estimation methods. Our algorithm can be further extended to work with neural network models. We analyze the theoretical properties of the proposed quasi-posterior, and demonstrate through empirical evaluation the competitive performance of our method. 
 
 * **A Semi-smooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
