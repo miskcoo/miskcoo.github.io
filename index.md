@@ -16,7 +16,10 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 * **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
   Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
   Short version to appear in _NeurIPS 2021_.  
-  [[arxiv]](https://arxiv.org/abs/2106.08750) 
+  [[short version]](https://ml.cs.tsinghua.edu.cn/~jun/pub/quasi-bayes.pdf)
+  [[full version]](https://arxiv.org/abs/2106.08750) 
+  [[code]](https://github.com/meta-inf/qbdiv)
+  [[slides]](https://ml.cs.tsinghua.edu.cn/~ziyu/static/p/qbdiv/slides-1.pdf)
   [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
@@ -28,7 +31,7 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
   [[pdf]](http://proceedings.mlr.press/v119/zhou20c.html) 
   [[arxiv]](https://arxiv.org/abs/2005.10099) 
   [[code]](https://github.com/miskcoo/kscore) 
-  [[slides]](http://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
+  [[slides]](https://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
   [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
