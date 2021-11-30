@@ -47,14 +47,14 @@ You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](http
 
 ### Preprints & Other Abstracts
 
-* **A Semi-smooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
+* **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
   _Preprint. Arxiv:2103.02855._  
   [[arxiv]](https://arxiv.org/abs/2103.02855) 
   [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
-  **Abstract**: This paper is devoted to studying an inexact augmented Lagrangian method for solving a class of manifold optimization problems, which have non-smooth objective functions and non-negative constraints. Under the constant positive linear dependence condition on manifold, we show that the proposed method converges to a stationary point of the non-smooth manifold optimization problem. Moreover, we propose a globalized semi-smooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semi-smooth Newton method is also established under some suitable conditions. Finally, numerical experiments on compressed modes and (constrained) sparse PCA illustrate the advantages of the proposed method in terms of accuracy and computational efficiency.
+  **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and non-negative constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
 
 * **Spectral Estimators for Gradient Fields of Log-Densities**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
