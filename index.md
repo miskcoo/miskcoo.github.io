@@ -7,7 +7,7 @@ I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and
 I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
 I also received my second bachelor degree at Tsinghua University, majored in _Pure and Applied Mathematics_.
 
-You can find me at [Twitter](https://twitter.com/miskcoo), [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en), and [GitHub](http://github.com/miskcoo/)!
+You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)!
 
 ## Publications
 
