@@ -5,9 +5,30 @@ nav-title: Home
 I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 
 I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
-I also received my second bachelor degree at Tsinghua University, majored in _Pure and Applied Mathematics_.
+I also received my second bachelor degree, majored in _Pure and Applied Mathematics_.
 
 You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)!
+
+## Preprints
+
+* **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
+  Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
+  _Preprint. 2022_  
+  [[pdf]](https://thjashin.github.io/docs/rodeo.pdf) 
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: Gradient estimation -- approximating the gradient of an expectation with respect to the parameters of a distribution—is central to the solution of many machine learning problems. However, when the distribution is discrete, most common gradient estimators suffer from excessive variance. To improve the quality of gradient estimation, we introduce a variance reduction technique based on Stein operators for discrete distributions. We then use this technique to build flexible control variates for the REINFORCE leave-one-out estimator. Our control variates can be adapted online to minimize the variance and do not require extra evaluations of the target function. In benchmark generative modeling tasks such as training binary variational autoencoders, our gradient estimator achieves substantially lower variance than state-of-the-art estimators with the same number of function evaluations.
+
+* **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
+  **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
+  _Preprint. Arxiv:2103.02855._  
+  [[arxiv]](https://arxiv.org/abs/2103.02855) 
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and non-negative constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
+
 
 ## Publications
 
@@ -45,16 +66,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
   }
   ```
 
-### Preprints & Other Abstracts
-
-* **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
-  **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
-  _Preprint. Arxiv:2103.02855._  
-  [[arxiv]](https://arxiv.org/abs/2103.02855) 
-  [[abstract]](javascript:void(0);)
-
-  {:.paper-abstract .paper-toggle}
-  **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and non-negative constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
+### Workshop Papers
 
 * **Spectral Estimators for Gradient Fields of Log-Densities**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
