@@ -13,8 +13,8 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
-  _Preprint. 2022_  
-  [[pdf]](https://thjashin.github.io/docs/rodeo.pdf) 
+  _Preprint. Arxiv:2202.09497._  
+  [[arxiv]](https://arxiv.org/abs/2202.09497) 
   [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
