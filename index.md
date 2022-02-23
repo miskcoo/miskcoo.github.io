@@ -15,8 +15,8 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
   _Preprint. Arxiv:2202.09497._  
   [[arxiv]](https://arxiv.org/abs/2202.09497) 
-  [[abstract]](javascript:void(0);)
   [[code]](https://github.com/thjashin/rodeo)
+  [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
   **Abstract**: Gradient estimation -- approximating the gradient of an expectation with respect to the parameters of a distribution—is central to the solution of many machine learning problems. However, when the distribution is discrete, most common gradient estimators suffer from excessive variance. To improve the quality of gradient estimation, we introduce a variance reduction technique based on Stein operators for discrete distributions. We then use this technique to build flexible control variates for the REINFORCE leave-one-out estimator. Our control variates can be adapted online to minimize the variance and do not require extra evaluations of the target function. In benchmark generative modeling tasks such as training binary variational autoencoders, our gradient estimator achieves substantially lower variance than state-of-the-art estimators with the same number of function evaluations.
