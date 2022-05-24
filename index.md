@@ -11,6 +11,16 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 ## Preprints
 
+* **Fast Instrument Learning with Faster Rates**{:.paper-title}  
+  Ziyu Wang, **Yuhao Zhou**{:.author-me}, Jun Zhu.  
+  _Preprint. Arxiv:2205.10772._  
+  [[arxiv]](https://arxiv.org/abs/2205.10772)
+  [[code]](https://github.com/meta-inf/fil)
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: We investigate nonlinear instrumental variable (IV) regression given high-dimensional instruments. We propose a simple algorithm which combines kernelized IV methods and an arbitrary, adaptive regression algorithm, accessed as a black box. Our algorithm enjoys faster-rate convergence and adapts to the dimensionality of informative latent features, while avoiding an expensive minimax optimization procedure, which has been necessary to establish similar guarantees. It further brings the benefit of flexible machine learning models to quasi-Bayesian uncertainty quantification, likelihood-based model selection, and model averaging. Simulation studies demonstrate the competitive performance of our method.
+
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
   _Preprint. Arxiv:2202.09497._  
