@@ -15,6 +15,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
   _Preprint. Arxiv:2206.00927._  
   [[arxiv]](https://arxiv.org/abs/2206.00927)
+  [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
@@ -55,7 +56,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
   Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
-  Short version in _NeurIPS 2021_.  
+  Short version in _Neural Information Processing Systems (NeurIPS)_, 2021.  
   [[short version]](https://proceedings.neurips.cc/paper/2021/hash/56a3107cad6611c8337ee36d178ca129-Abstract.html)
   [[full version]](https://arxiv.org/abs/2106.08750) 
   [[code]](https://github.com/meta-inf/qbdiv)
@@ -69,7 +70,6 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
   **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
   _International Conference on Machine Learning (ICML)_, 2020.  
   [[pdf]](http://proceedings.mlr.press/v119/zhou20c.html) 
-  [[arxiv]](https://arxiv.org/abs/2005.10099) 
   [[code]](https://github.com/miskcoo/kscore) 
   [[slides]](https://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
   [[abstract]](javascript:void(0);)
