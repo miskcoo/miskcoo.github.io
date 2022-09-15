@@ -9,11 +9,23 @@ Meanwhile, I also received my second bachelor degree, majored in _Pure and Appli
 
 You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)!
 
-## Preprints
+<!--## Preprints-->
+
+## Publications
+
+* **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
+  **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
+  Accepted by _Mathematical Programming_, 2022.  
+  [[arxiv]](https://arxiv.org/abs/2103.02855) 
+  [[code]](https://github.com/miskcoo/almssn)
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and nonlinear constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
 
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
-  _Preprint. Arxiv:2206.00927._  
+  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.
   [[arxiv]](https://arxiv.org/abs/2206.00927)
   [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
@@ -23,7 +35,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **Fast Instrument Learning with Faster Rates**{:.paper-title}  
   Ziyu Wang, **Yuhao Zhou**{:.author-me}, Jun Zhu.  
-  _Preprint. Arxiv:2205.10772._  
+  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.
   [[arxiv]](https://arxiv.org/abs/2205.10772)
   [[code]](https://github.com/meta-inf/fil)
   [[abstract]](javascript:void(0);)
@@ -33,26 +45,13 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
-  _Preprint. Arxiv:2202.09497._  
+  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.
   [[arxiv]](https://arxiv.org/abs/2202.09497) 
   [[code]](https://github.com/thjashin/rodeo)
   [[abstract]](javascript:void(0);)
 
   {:.paper-abstract .paper-toggle}
   **Abstract**: Gradient estimation -- approximating the gradient of an expectation with respect to the parameters of a distribution—is central to the solution of many machine learning problems. However, when the distribution is discrete, most common gradient estimators suffer from excessive variance. To improve the quality of gradient estimation, we introduce a variance reduction technique based on Stein operators for discrete distributions. We then use this technique to build flexible control variates for the REINFORCE leave-one-out estimator. Our control variates can be adapted online to minimize the variance and do not require extra evaluations of the target function. In benchmark generative modeling tasks such as training binary variational autoencoders, our gradient estimator achieves substantially lower variance than state-of-the-art estimators with the same number of function evaluations.
-
-* **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
-  **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
-  _Preprint. Arxiv:2103.02855._  
-  [[arxiv]](https://arxiv.org/abs/2103.02855) 
-  [[code]](https://github.com/miskcoo/almssn)
-  [[abstract]](javascript:void(0);)
-
-  {:.paper-abstract .paper-toggle}
-  **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and nonlinear constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
-
-
-## Publications
 
 * **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
   Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
