@@ -15,6 +15,8 @@ E-mails: yuhaoz.cs [at] gmail.com _(preferred)_; zhouyh20 [at] mails.tsinghua.ed
 
 ## Publications
 
+_(*) denotes equal contribution._
+
 * **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
   Accepted by _Mathematical Programming_, 2022.  
