@@ -9,6 +9,8 @@ Meanwhile, I also received my second bachelor degree, majored in _Pure and Appli
 
 You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)!
 
+E-mails: yuhaoz.cs [at] gmail.com _(preferred)_; zhouyh20 [at] mails.tsinghua.edu.cn
+
 <!--## Preprints-->
 
 ## Publications
