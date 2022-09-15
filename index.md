@@ -25,7 +25,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
-  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.
+  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.  
   [[arxiv]](https://arxiv.org/abs/2206.00927)
   [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
@@ -35,7 +35,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **Fast Instrument Learning with Faster Rates**{:.paper-title}  
   Ziyu Wang, **Yuhao Zhou**{:.author-me}, Jun Zhu.  
-  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.
+  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.  
   [[arxiv]](https://arxiv.org/abs/2205.10772)
   [[code]](https://github.com/meta-inf/fil)
   [[abstract]](javascript:void(0);)
@@ -45,7 +45,7 @@ You can find me at [Google Scholar](https://scholar.google.com/citations?user=GK
 
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
-  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.
+  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.  
   [[arxiv]](https://arxiv.org/abs/2202.09497) 
   [[code]](https://github.com/thjashin/rodeo)
   [[abstract]](javascript:void(0);)
