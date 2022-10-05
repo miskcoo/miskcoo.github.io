@@ -19,8 +19,8 @@ _(*) denotes equal contribution._
 
 * **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
-  Accepted by _Mathematical Programming_, 2022.  
-  [[arxiv]](https://arxiv.org/abs/2103.02855) 
+  _Mathematical Programming_, 2022.  
+  [[pdf]](https://link.springer.com/article/10.1007/s10107-022-01898-1)
   [[code]](https://github.com/miskcoo/almssn)
   [[abstract]](javascript:void(0);)
 
