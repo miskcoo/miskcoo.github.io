@@ -2,10 +2,10 @@
 title: Yuhao Zhou | Home
 nav-title: Home
 ---
-I am a Ph.D. student (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
+I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 
 I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
-Meanwhile, I also received my second bachelor degree, majored in _Pure and Applied Mathematics_.
+Meanwhile, I also received my second bachelor degree, majored in _Mathematics_.
 
 You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)!
 
@@ -16,6 +16,16 @@ E-mails: yuhaoz.cs [at] gmail.com _(preferred)_; zhouyh20 [at] mails.tsinghua.ed
 ## Publications
 
 _(*) denotes equal contribution._
+
+* **The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing**{:.paper-title}  
+  Shen Nie, Hanzhong Allan Guo, Cheng Lu, **Yuhao Zhou**{:.author-me}, Chenyu Zheng, Chongxuan Li.  
+  _International Conference on Learning Representations (ICLR)_, 2024.  
+  [[pdf]](https://arxiv.org/abs/2311.01410)
+  [[code]](https://github.com/ML-GSAI/SDE-Drag)
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: We present a unified probabilistic formulation for diffusion-based image editing, where a latent variable is edited in a task-specific manner and generally deviates from the corresponding marginal distribution induced by the original stochastic or ordinary differential equation (SDE or ODE). Instead, it defines a corresponding SDE or ODE for editing. In the formulation, we prove that the Kullback-Leibler divergence between the marginal distributions of the two SDEs gradually decreases while that for the ODEs remains as the time approaches zero, which shows the promise of SDE in image editing. Inspired by it, we provide the SDE counterparts for widely used ODE baselines in various tasks including inpainting and image-to-image translation, where SDE shows a consistent and substantial improvement. Moreover, we propose SDE-Drag -- a simple yet effective method built upon the SDE formulation for point-based content dragging. We build a challenging benchmark (termed DragBench) with open-set natural, art, and AI-generated images for evaluation. A user study on DragBench indicates that SDE-Drag significantly outperforms our ODE baseline, existing diffusion-based methods, and the renowned DragGAN. Our results demonstrate the superiority and versatility of SDE in image editing and push the boundary of diffusion-based editing methods.
 
 * **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
@@ -29,8 +39,8 @@ _(*) denotes equal contribution._
 
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
-  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.  
-  [[arxiv]](https://arxiv.org/abs/2206.00927)
+  _Neural Information Processing Systems (NeurIPS)_, 2022.  
+  [[pdf]](https://arxiv.org/abs/2206.00927)
   [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
 
@@ -39,8 +49,8 @@ _(*) denotes equal contribution._
 
 * **Fast Instrument Learning with Faster Rates**{:.paper-title}  
   Ziyu Wang, **Yuhao Zhou**{:.author-me}, Jun Zhu.  
-  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.  
-  [[arxiv]](https://arxiv.org/abs/2205.10772)
+  _Neural Information Processing Systems (NeurIPS)_, 2022.  
+  [[pdf]](https://arxiv.org/abs/2205.10772)
   [[code]](https://github.com/meta-inf/fil)
   [[abstract]](javascript:void(0);)
 
@@ -49,8 +59,8 @@ _(*) denotes equal contribution._
 
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
-  Accepted by _Neural Information Processing Systems (NeurIPS)_, 2022.  
-  [[arxiv]](https://arxiv.org/abs/2202.09497) 
+  _Neural Information Processing Systems (NeurIPS)_, 2022.  
+  [[pdf]](https://arxiv.org/abs/2202.09497) 
   [[code]](https://github.com/thjashin/rodeo)
   [[abstract]](javascript:void(0);)
 
@@ -89,9 +99,3 @@ _(*) denotes equal contribution._
 	  year={2020}
   }
   ```
-
-### Workshop Papers
-
-* **Spectral Estimators for Gradient Fields of Log-Densities**{:.paper-title}  
-  **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
-  _[ICML Workshop on Stein’s Method](https://steinworkshop.github.io/)_, Long Beach, USA, 2019.
