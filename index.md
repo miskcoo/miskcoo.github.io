@@ -19,7 +19,7 @@ _(*) denotes equal contribution._
 
 * **The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing**{:.paper-title}  
   Shen Nie, Hanzhong Allan Guo, Cheng Lu, **Yuhao Zhou**{:.author-me}, Chenyu Zheng, Chongxuan Li.  
-  _International Conference on Learning Representations (ICLR)_, 2024.  
+  _International Conference on Learning Representations (**ICLR**)_, 2024.  
   [[pdf]](https://arxiv.org/abs/2311.01410)
   [[code]](https://github.com/ML-GSAI/SDE-Drag)
   [[abstract]](javascript:void(0);)
@@ -29,7 +29,7 @@ _(*) denotes equal contribution._
 
 * **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
-  _Mathematical Programming_, 2022.  
+  _**Mathematical Programming**_, 2022.  
   [[pdf]](https://link.springer.com/article/10.1007/s10107-022-01898-1)
   [[code]](https://github.com/miskcoo/almssn)
   [[abstract]](javascript:void(0);)
@@ -39,7 +39,7 @@ _(*) denotes equal contribution._
 
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
-  _Neural Information Processing Systems (NeurIPS)_, 2022.  
+  _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   [[pdf]](https://arxiv.org/abs/2206.00927)
   [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
@@ -49,7 +49,7 @@ _(*) denotes equal contribution._
 
 * **Fast Instrument Learning with Faster Rates**{:.paper-title}  
   Ziyu Wang, **Yuhao Zhou**{:.author-me}, Jun Zhu.  
-  _Neural Information Processing Systems (NeurIPS)_, 2022.  
+  _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   [[pdf]](https://arxiv.org/abs/2205.10772)
   [[code]](https://github.com/meta-inf/fil)
   [[abstract]](javascript:void(0);)
@@ -59,7 +59,7 @@ _(*) denotes equal contribution._
 
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
-  _Neural Information Processing Systems (NeurIPS)_, 2022.  
+  _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   [[pdf]](https://arxiv.org/abs/2202.09497) 
   [[code]](https://github.com/thjashin/rodeo)
   [[abstract]](javascript:void(0);)
@@ -69,7 +69,7 @@ _(*) denotes equal contribution._
 
 * **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
   Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
-  Short version in _Neural Information Processing Systems (NeurIPS)_, 2021.  
+  Short version in _Neural Information Processing Systems (**NeurIPS**)_, 2021.  
   [[short version]](https://proceedings.neurips.cc/paper/2021/hash/56a3107cad6611c8337ee36d178ca129-Abstract.html)
   [[full version]](https://arxiv.org/abs/2106.08750) 
   [[code]](https://github.com/meta-inf/qbdiv)
@@ -81,7 +81,7 @@ _(*) denotes equal contribution._
 
 * **Nonparametric Score Estimators**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
-  _International Conference on Machine Learning (ICML)_, 2020.  
+  _International Conference on Machine Learning (**ICML**)_, 2020.  
   [[pdf]](http://proceedings.mlr.press/v119/zhou20c.html) 
   [[code]](https://github.com/miskcoo/kscore) 
   [[slides]](https://ml.cs.tsinghua.edu.cn/~yuhao/slides/nonparametric score estimators, icml2020.pdf)
