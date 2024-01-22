@@ -40,6 +40,7 @@ _(*) denotes equal contribution._
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
+  **Oral Presentation**{:.p-highlight}.  
   [[pdf]](https://arxiv.org/abs/2206.00927)
   [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
@@ -60,6 +61,7 @@ _(*) denotes equal contribution._
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
+  **Outstanding Paper Award**{:.p-highlight}.  
   [[pdf]](https://arxiv.org/abs/2202.09497) 
   [[code]](https://github.com/thjashin/rodeo)
   [[abstract]](javascript:void(0);)
