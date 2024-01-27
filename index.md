@@ -2,7 +2,7 @@
 title: Yuhao Zhou | Home
 nav-title: Home
 ---
-I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. **Jun Zhu**{:.author}](http://ml.cs.tsinghua.edu.cn/~jun). 
+I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 
 I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
 Meanwhile, I also received my second bachelor degree, majored in _Mathematics_.
