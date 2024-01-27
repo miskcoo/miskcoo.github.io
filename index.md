@@ -71,7 +71,7 @@ _(*) denotes equal contribution._
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
   Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
-  **Outstanding Paper Award**{:.p-highlight}.  
+  **[Outstanding Paper Award](https://blog.neurips.cc/2022/11/21/announcing-the-neurips-2022-awards/)**{:.p-highlight}.  
   [[pdf]](https://arxiv.org/abs/2202.09497) 
   [[code]](https://github.com/thjashin/rodeo)
   [[abstract]](javascript:void(0);)
