@@ -7,25 +7,22 @@ I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science a
 I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
 Meanwhile, I also received my second bachelor degree, majored in _Mathematics_.
 
-You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)!
+<!-- You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)! -->
 
-E-mails: yuhaoz.cs [at] gmail.com _(preferred)_; zhouyh20 [at] mails.tsinghua.edu.cn
+E-mails: 
+yuhaoz.cs [at] gmail.com _(preferred)_; 
+zhouyh20 [at] mails.tsinghua.edu.cn.
+
+[[Google Scholar]](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en)
+[[GitHub]](https://github.com/miskcoo/)
 
 <!--## Preprints-->
 
-## Publications
+# Publications
 
 _(*) denotes equal contribution._
 
-* **The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing**{:.paper-title}  
-  Shen Nie, Hanzhong Allan Guo, Cheng Lu, **Yuhao Zhou**{:.author-me}, Chenyu Zheng, Chongxuan Li.  
-  _International Conference on Learning Representations (**ICLR**)_, 2024.  
-  [[pdf]](https://arxiv.org/abs/2311.01410)
-  [[code]](https://github.com/ML-GSAI/SDE-Drag)
-  [[abstract]](javascript:void(0);)
-
-  {:.paper-abstract .paper-toggle}
-  **Abstract**: We present a unified probabilistic formulation for diffusion-based image editing, where a latent variable is edited in a task-specific manner and generally deviates from the corresponding marginal distribution induced by the original stochastic or ordinary differential equation (SDE or ODE). Instead, it defines a corresponding SDE or ODE for editing. In the formulation, we prove that the Kullback-Leibler divergence between the marginal distributions of the two SDEs gradually decreases while that for the ODEs remains as the time approaches zero, which shows the promise of SDE in image editing. Inspired by it, we provide the SDE counterparts for widely used ODE baselines in various tasks including inpainting and image-to-image translation, where SDE shows a consistent and substantial improvement. Moreover, we propose SDE-Drag -- a simple yet effective method built upon the SDE formulation for point-based content dragging. We build a challenging benchmark (termed DragBench) with open-set natural, art, and AI-generated images for evaluation. A user study on DragBench indicates that SDE-Drag significantly outperforms our ODE baseline, existing diffusion-based methods, and the renowned DragGAN. Our results demonstrate the superiority and versatility of SDE in image editing and push the boundary of diffusion-based editing methods.
+## Journal Paper
 
 * **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
@@ -37,11 +34,24 @@ _(*) denotes equal contribution._
   {:.paper-abstract .paper-toggle}
   **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and nonlinear constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
 
+## Conference Papers
+
+* **The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing**{:.paper-title}  
+  Shen Nie, Hanzhong Allan Guo, Cheng Lu, **Yuhao Zhou**{:.author-me}, Chenyu Zheng, Chongxuan Li.  
+  _International Conference on Learning Representations (**ICLR**)_, 2024.  
+  [[pdf]](https://arxiv.org/abs/2311.01410)
+  [[code]](https://github.com/ML-GSAI/SDE-Drag)
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: We present a unified probabilistic formulation for diffusion-based image editing, where a latent variable is edited in a task-specific manner and generally deviates from the corresponding marginal distribution induced by the original stochastic or ordinary differential equation (SDE or ODE). Instead, it defines a corresponding SDE or ODE for editing. In the formulation, we prove that the Kullback-Leibler divergence between the marginal distributions of the two SDEs gradually decreases while that for the ODEs remains as the time approaches zero, which shows the promise of SDE in image editing. Inspired by it, we provide the SDE counterparts for widely used ODE baselines in various tasks including inpainting and image-to-image translation, where SDE shows a consistent and substantial improvement. Moreover, we propose SDE-Drag -- a simple yet effective method built upon the SDE formulation for point-based content dragging. We build a challenging benchmark (termed DragBench) with open-set natural, art, and AI-generated images for evaluation. A user study on DragBench indicates that SDE-Drag significantly outperforms our ODE baseline, existing diffusion-based methods, and the renowned DragGAN. Our results demonstrate the superiority and versatility of SDE in image editing and push the boundary of diffusion-based editing methods.
+
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
   Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   **Oral Presentation**{:.p-highlight}.  
   [[pdf]](https://arxiv.org/abs/2206.00927)
+  [[improved version]](https://arxiv.org/abs/2211.01095)
   [[code]](https://github.com/LuChengTHU/dpm-solver)
   [[abstract]](javascript:void(0);)
 
@@ -91,13 +101,3 @@ _(*) denotes equal contribution._
 
   {:.paper-abstract .paper-toggle}
   **Abstract**: Estimating the score, i.e., the gradient of log density function, from a set of samples generated by an unknown distribution is a fundamental task in inference and learning of probabilistic models that involve flexible yet intractable densities. Kernel estimators based on Stein's methods or score matching have shown promise, however their theoretical properties and relationships have not been fully-understood. We provide a unifying view of these estimators under the framework of regularized nonparametric regression. It allows us to analyse existing estimators and construct new ones with desirable properties by choosing different hypothesis spaces and regularizers. A unified convergence analysis is provided for such estimators. Finally, we propose score estimators based on iterative regularization that enjoy computational benefits from curl-free kernels and fast convergence.
-
-  {:.paper-bibtex .paper-toggle}
-  ```plain
-  @article{zhou2020nonparametric,
-	  title={Nonparametric Score Estimators},
-	  author={Zhou, Yuhao and Shi, Jiaxin and Zhu, Jun},
-	  journal={arXiv preprint arXiv:2005.10099},
-	  year={2020}
-  }
-  ```
