@@ -71,6 +71,27 @@
 		setupToggle('paper-abstract', '[abstract]', '[hide abstract]');
 		setupToggle('paper-bibtex', '[bibtex]', '[hide bibtex]');
 	</script>
+    <script>
+        const personal_website = {
+            'Jun Zhu': 'https://ml.cs.tsinghua.edu.cn/~jun/',
+            'Jianfei Chen': 'https://ml.cs.tsinghua.edu.cn/~jianfei/',
+            'Jiaxin Shi': 'https://jiaxins.io/',
+            'Chenglong Bao': 'https://matbc.github.io/',
+            'Chao Ding': 'https://www.dingchao.info/',
+            'Ziyu Wang': 'https://www.stats.ox.ac.uk/~ziwang/',
+            'Chongxuan Li': 'https://zhenxuan00.github.io/',
+            'Lester Mackey': 'https://web.stanford.edu/~lmackey/',
+            'Tongzheng Ren': 'https://scholar.google.com/citations?user=VgNDYeYAAAAJ&hl=en',
+            'Michalis K. Titsias': 'https://mtitsias.github.io/',
+        };
+
+        document.querySelectorAll('.author').forEach( node => {
+            const name = node.innerText;
+            if (name in personal_website) {
+                node.innerHTML = '<a href="' + personal_website[name] + '">' + name + '</a>';
+            }
+        } );
+	</script>
   </body>
 </html>
 

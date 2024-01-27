@@ -34,6 +34,15 @@
 		"helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 }
 
+.author {
+	font-weight: normal;
+}
+
+.author a {
+	font-weight: normal;
+    color: $body-text-color;
+}
+
 ul li:not(:first-of-type) .paper-title {
 	padding-top: 1rem;
 }

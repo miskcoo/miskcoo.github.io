@@ -2,7 +2,7 @@
 title: Yuhao Zhou | Home
 nav-title: Home
 ---
-I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
+I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. **Jun Zhu**{:.author}](http://ml.cs.tsinghua.edu.cn/~jun). 
 
 I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
 Meanwhile, I also received my second bachelor degree, majored in _Mathematics_.
@@ -25,7 +25,7 @@ _(*) denotes equal contribution._
 ## Journal Papers
 
 * **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
-  **Yuhao Zhou**{:.author-me}, Chenglong Bao, Chao Ding, Jun Zhu.  
+  **Yuhao Zhou**{:.author-me}, **Chenglong Bao**{:.author}, **Chao Ding**{:.author}, **Jun Zhu**{:.author}.  
   _**Mathematical Programming**_, 201, 1-61 (2023).  
   [[pdf]](https://link.springer.com/article/10.1007/s10107-022-01898-1)
   [[code]](https://github.com/miskcoo/almssn)
@@ -37,7 +37,7 @@ _(*) denotes equal contribution._
 ## Conference Papers
 
 * **The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing**{:.paper-title}  
-  Shen Nie, Hanzhong Allan Guo, Cheng Lu, **Yuhao Zhou**{:.author-me}, Chenyu Zheng, Chongxuan Li.  
+  **Shen Nie**{:.author}, **Hanzhong Allan Guo**{:.author}, **Cheng Lu**{:.author}, **Yuhao Zhou**{:.author-me}, **Chenyu Zheng**{:.author}, **Chongxuan Li**{:.author}.  
   _International Conference on Learning Representations (**ICLR**)_, 2024.  
   [[pdf]](https://arxiv.org/abs/2311.01410)
   [[code]](https://github.com/ML-GSAI/SDE-Drag)
@@ -47,7 +47,7 @@ _(*) denotes equal contribution._
   **Abstract**: We present a unified probabilistic formulation for diffusion-based image editing, where a latent variable is edited in a task-specific manner and generally deviates from the corresponding marginal distribution induced by the original stochastic or ordinary differential equation (SDE or ODE). Instead, it defines a corresponding SDE or ODE for editing. In the formulation, we prove that the Kullback-Leibler divergence between the marginal distributions of the two SDEs gradually decreases while that for the ODEs remains as the time approaches zero, which shows the promise of SDE in image editing. Inspired by it, we provide the SDE counterparts for widely used ODE baselines in various tasks including inpainting and image-to-image translation, where SDE shows a consistent and substantial improvement. Moreover, we propose SDE-Drag -- a simple yet effective method built upon the SDE formulation for point-based content dragging. We build a challenging benchmark (termed DragBench) with open-set natural, art, and AI-generated images for evaluation. A user study on DragBench indicates that SDE-Drag significantly outperforms our ODE baseline, existing diffusion-based methods, and the renowned DragGAN. Our results demonstrate the superiority and versatility of SDE in image editing and push the boundary of diffusion-based editing methods.
 
 * **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**{:.paper-title}  
-  Cheng Lu, **Yuhao Zhou**{:.author-me}, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu.  
+  **Cheng Lu**{:.author}, **Yuhao Zhou**{:.author-me}, **Fan Bao**{:.author}, **Jianfei Chen**{:.author}, **Chongxuan Li**{:.author}, **Jun Zhu**{:.author}.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   **Oral Presentation**{:.p-highlight}.  
   [[pdf]](https://arxiv.org/abs/2206.00927)
@@ -59,7 +59,7 @@ _(*) denotes equal contribution._
   **Abstract**: Diffusion probabilistic models (DPMs) are emerging powerful generative models. Despite their high-quality generation performance, DPMs still suffer from their slow sampling as they generally need hundreds or thousands of sequential function evaluations (steps) of large neural networks to draw a sample. Sampling from DPMs can be viewed alternatively as solving the corresponding diffusion ordinary differential equations (ODEs). In this work, we propose an exact formulation of the solution of diffusion ODEs. The formulation analytically computes the linear part of the solution, rather than leaving all terms to black-box ODE solvers as adopted in previous works. By applying change-of-variable, the solution can be equivalently simplified to an exponentially weighted integral of the neural network. Based on our formulation, we propose DPM-Solver, a fast dedicated high-order solver for diffusion ODEs with the convergence order guarantee. DPM-Solver is suitable for both discrete-time and continuous-time DPMs without any further training. Experimental results show that DPM-Solver can generate high-quality samples in only 10 to 20 function evaluations on various datasets. We achieve 4.70 FID in 10 function evaluations and 2.87 FID in 20 function evaluations on the CIFAR10 dataset, and a 4∼16× speedup compared with previous state-of-the-art training-free samplers on various datasets.
 
 * **Fast Instrument Learning with Faster Rates**{:.paper-title}  
-  Ziyu Wang, **Yuhao Zhou**{:.author-me}, Jun Zhu.  
+  **Ziyu Wang**{:.author}, **Yuhao Zhou**{:.author-me}, **Jun Zhu**{:.author}.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   [[pdf]](https://arxiv.org/abs/2205.10772)
   [[code]](https://github.com/meta-inf/fil)
@@ -69,7 +69,7 @@ _(*) denotes equal contribution._
   **Abstract**: We investigate nonlinear instrumental variable (IV) regression given high-dimensional instruments. We propose a simple algorithm which combines kernelized IV methods and an arbitrary, adaptive regression algorithm, accessed as a black box. Our algorithm enjoys faster-rate convergence and adapts to the dimensionality of informative latent features, while avoiding an expensive minimax optimization procedure, which has been necessary to establish similar guarantees. It further brings the benefit of flexible machine learning models to quasi-Bayesian uncertainty quantification, likelihood-based model selection, and model averaging. Simulation studies demonstrate the competitive performance of our method.
 
 * **Gradient Estimation with Discrete Stein Operators**{:.paper-title}  
-  Jiaxin Shi, **Yuhao Zhou**{:.author-me}, Jessica Hwang, Michalis K. Titsias, Lester Mackey.  
+  **Jiaxin Shi**{:.author}, **Yuhao Zhou**{:.author-me}, **Jessica Hwang**{:.author}, **Michalis K. Titsias**{:.author}, **Lester Mackey**{:.author}.  
   _Neural Information Processing Systems (**NeurIPS**)_, 2022.  
   **[Outstanding Paper Award](https://blog.neurips.cc/2022/11/21/announcing-the-neurips-2022-awards/)**{:.p-highlight}.  
   [[pdf]](https://arxiv.org/abs/2202.09497) 
@@ -80,7 +80,7 @@ _(*) denotes equal contribution._
   **Abstract**: Gradient estimation -- approximating the gradient of an expectation with respect to the parameters of a distribution—is central to the solution of many machine learning problems. However, when the distribution is discrete, most common gradient estimators suffer from excessive variance. To improve the quality of gradient estimation, we introduce a variance reduction technique based on Stein operators for discrete distributions. We then use this technique to build flexible control variates for the REINFORCE leave-one-out estimator. Our control variates can be adapted online to minimize the variance and do not require extra evaluations of the target function. In benchmark generative modeling tasks such as training binary variational autoencoders, our gradient estimator achieves substantially lower variance than state-of-the-art estimators with the same number of function evaluations.
 
 * **Scalable Quasi-Bayesian Inference for Instrumental Variable Regression**{:.paper-title}  
-  Ziyu Wang\*, **Yuhao Zhou**{:.author-me}\*, Tongzheng Ren, Jun Zhu.  
+  **Ziyu Wang**{:.author}\*, **Yuhao Zhou**{:.author-me}\*, **Tongzheng Ren**{:.author}, **Jun Zhu**{:.author}.  
   Short version in _Neural Information Processing Systems (**NeurIPS**)_, 2021.  
   [[short version]](https://proceedings.neurips.cc/paper/2021/hash/56a3107cad6611c8337ee36d178ca129-Abstract.html)
   [[full version]](https://arxiv.org/abs/2106.08750) 
@@ -92,7 +92,7 @@ _(*) denotes equal contribution._
   **Abstract**: Recent years have witnessed an upsurge of interest in employing flexible machine learning models for instrumental variable (IV) regression, but the development of uncertainty quantification methodology is still lacking. In this work we present a scalable quasi-Bayesian procedure for IV regression, building upon the recently developed kernelized IV models. Contrary to Bayesian modeling for IV, our approach does not require additional assumptions on the data generating process, and leads to a scalable approximate inference algorithm with time cost comparable to the corresponding point estimation methods. Our algorithm can be further extended to work with neural network models. We analyze the theoretical properties of the proposed quasi-posterior, and demonstrate through empirical evaluation the competitive performance of our method. 
 
 * **Nonparametric Score Estimators**{:.paper-title}  
-  **Yuhao Zhou**{:.author-me}, Jiaxin Shi, Jun Zhu.  
+  **Yuhao Zhou**{:.author-me}, **Jiaxin Shi**{:.author}, **Jun Zhu**{:.author}.  
   _International Conference on Machine Learning (**ICML**)_, 2020.  
   [[pdf]](http://proceedings.mlr.press/v119/zhou20c.html) 
   [[code]](https://github.com/miskcoo/kscore) 
