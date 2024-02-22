@@ -15,6 +15,7 @@ zhouyh20 [at] mails.tsinghua.edu.cn.
 
 [[Google Scholar]](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en)
 [[GitHub]](https://github.com/miskcoo/)
+[[Blog (CN)]](https://blog.miskcoo.com)
 
 # Publications
 
