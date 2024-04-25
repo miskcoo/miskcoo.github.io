@@ -21,7 +21,13 @@ zhouyh20 [at] mails.tsinghua.edu.cn.
 
 _(*) denotes equal contribution._
 
-<!--## Preprints-->
+## Preprints
+
+* **A Semismooth Newton based Augmented Lagrangian Method for Nonsmooth Optimization on Matrix Manifolds**{:.paper-title}  
+  **Kaiwen Xue**{:.author}\*, **Yuhao Zhou**{:.author-me}\*, **Shen Nie**{:.author}, **Xu Min**{:.author}, **Xiaolu Zhang**{:.author}, **Jun Zhou**{:.author}, **Chongxuan Li**{:.author}.  
+  _arXiv 2404.15766_.
+  [[pdf]](https://arxiv.org/abs/2404.15766)
+  [[abstract]](javascript:void(0);)
 
 ## Journal Papers
 
