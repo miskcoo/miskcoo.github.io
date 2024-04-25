@@ -25,7 +25,7 @@ _(*) denotes equal contribution._
 
 * **Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations**{:.paper-title}  
   **Kaiwen Xue**{:.author}\*, **Yuhao Zhou**{:.author-me}\*, **Shen Nie**{:.author}, **Xu Min**{:.author}, **Xiaolu Zhang**{:.author}, **Jun Zhou**{:.author}, **Chongxuan Li**{:.author}.  
-  _arXiv preprint_, 2024.  
+  _arXiv preprint, 2404.15766_.  
   [[pdf]](https://arxiv.org/abs/2404.15766)
   [[code]](https://github.com/ML-GSAI/BFN-Solver)
   [[abstract]](javascript:void(0);)
