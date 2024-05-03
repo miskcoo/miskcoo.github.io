@@ -21,17 +21,7 @@ zhouyh20 [at] mails.tsinghua.edu.cn.
 
 _(*) denotes equal contribution._
 
-## Preprints
-
-* **Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations**{:.paper-title}  
-  **Kaiwen Xue**{:.author}\*, **Yuhao Zhou**{:.author-me}\*, **Shen Nie**{:.author}, **Xu Min**{:.author}, **Xiaolu Zhang**{:.author}, **Jun Zhou**{:.author}, **Chongxuan Li**{:.author}.  
-  _arXiv preprint, 2404.15766_.  
-  [[pdf]](https://arxiv.org/abs/2404.15766)
-  [[code]](https://github.com/ML-GSAI/BFN-Solver)
-  [[abstract]](javascript:void(0);)
-
-  {:.paper-abstract .paper-toggle}
-  **Abstract**: Bayesian flow networks (BFNs) iteratively refine the parameters, instead of the samples in diffusion models (DMs), of distributions at various noise levels through Bayesian inference. Owing to its differentiable nature, BFNs are promising in modeling both continuous and discrete data, while simultaneously maintaining fast sampling capabilities. This paper aims to understand and enhance BFNs by connecting them with DMs through stochastic differential equations (SDEs). We identify the linear SDEs corresponding to the noise-addition processes in BFNs, demonstrate that BFN's regression losses are aligned with denoise score matching, and validate the sampler in BFN as a first-order solver for the respective reverse-time SDE. Based on these findings and existing recipes of fast sampling in DMs, we propose specialized solvers for BFNs that markedly surpass the original BFN sampler in terms of sample quality with a limited number of function evaluations (e.g., 10) on both image and text datasets. Notably, our best sampler achieves an increase in speed of 5~20 times for free.
+<!--## Preprints-->
 
 ## Journal Papers
 
@@ -46,6 +36,16 @@ _(*) denotes equal contribution._
   **Abstract**: This paper is devoted to studying an augmented Lagrangian method for solving a class of manifold optimization problems, which have nonsmooth objective functions and nonlinear constraints. Under the constant positive linear dependence condition on manifolds, we show that the proposed method converges to a stationary point of the nonsmooth manifold optimization problem. Moreover, we propose a globalized semismooth Newton method to solve the augmented Lagrangian subproblem on manifolds efficiently. The local superlinear convergence of the manifold semismooth Newton method is also established under some suitable conditions. We also prove that the semismoothness on submanifolds can be inherited from that in the ambient manifold. Finally, numerical experiments on compressed modes and (constrained) sparse principal component analysis illustrate the advantages of the proposed method.
 
 ## Conference Papers
+
+* **Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations**{:.paper-title}  
+  **Kaiwen Xue**{:.author}\*, **Yuhao Zhou**{:.author-me}\*, **Shen Nie**{:.author}, **Xu Min**{:.author}, **Xiaolu Zhang**{:.author}, **Jun Zhou**{:.author}, **Chongxuan Li**{:.author}.  
+  _International Conference on Machine Learning (**ICML**)_, 2024.  
+  [[pdf]](https://arxiv.org/abs/2404.15766)
+  [[code]](https://github.com/ML-GSAI/BFN-Solver)
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: Bayesian flow networks (BFNs) iteratively refine the parameters, instead of the samples in diffusion models (DMs), of distributions at various noise levels through Bayesian inference. Owing to its differentiable nature, BFNs are promising in modeling both continuous and discrete data, while simultaneously maintaining fast sampling capabilities. This paper aims to understand and enhance BFNs by connecting them with DMs through stochastic differential equations (SDEs). We identify the linear SDEs corresponding to the noise-addition processes in BFNs, demonstrate that BFN's regression losses are aligned with denoise score matching, and validate the sampler in BFN as a first-order solver for the respective reverse-time SDE. Based on these findings and existing recipes of fast sampling in DMs, we propose specialized solvers for BFNs that markedly surpass the original BFN sampler in terms of sample quality with a limited number of function evaluations (e.g., 10) on both image and text datasets. Notably, our best sampler achieves an increase in speed of 5~20 times for free.
 
 * **The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing**{:.paper-title}  
   **Shen Nie**{:.author}, **Hanzhong Allan Guo**{:.author}, **Cheng Lu**{:.author}, **Yuhao Zhou**{:.author-me}, **Chenyu Zheng**{:.author}, **Chongxuan Li**{:.author}.  
