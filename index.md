@@ -21,7 +21,18 @@ zhouyh20 [at] mails.tsinghua.edu.cn.
 
 _(*) denotes equal contribution._
 
-<!--## Preprints-->
+## Preprints
+
+* **A Regularized Newton Method for Nonconvex Optimization with Global and Local Complexity Guarantees**{:.paper-title}  
+  **Yuhao Zhou**{:.author-me}, **Jintao Xu**{:.author}, **Chenglong Bao**{:.author}, **Chao Ding**{:.author}, **Jun Zhu**{:.author}.  
+  Preprint.
+  [[pdf]](https://arxiv.org/abs/2502.04799)
+  [[code]](https://github.com/miskcoo/ARNCG)
+  [[abstract]](javascript:void(0);)
+
+  {:.paper-abstract .paper-toggle}
+  **Abstract**: We consider the problem of finding an ϵ-stationary point of a nonconvex function with a Lipschitz continuous Hessian and propose a quadratic regularized Newton method incorporating a new class of regularizers constructed from the current and previous gradients. The method leverages a recently developed linear conjugate gradient approach with a negative curvature monitor to solve the regularized Newton equation. Notably, our algorithm is adaptive, requiring no prior knowledge of the Lipschitz constant of the Hessian, and achieves a global complexity of $O(\epsilon^{-3/2}) + \tilde O(1)$ in terms of the second-order oracle calls, and $\tilde O(\epsilon^{-7/4})$ for Hessian-vector products, respectively. Moreover, when the iterates converge to a point where the Hessian is positive definite, the method exhibits quadratic local convergence. Preliminary numerical results illustrate the competitiveness of our algorithm.
+
 
 ## Journal Papers
 
