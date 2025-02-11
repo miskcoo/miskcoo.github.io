@@ -25,7 +25,7 @@ _(*) denotes equal contribution._
 
 * **A Regularized Newton Method for Nonconvex Optimization with Global and Local Complexity Guarantees**{:.paper-title}  
   **Yuhao Zhou**{:.author-me}, **Jintao Xu**{:.author}, **Chenglong Bao**{:.author}, **Chao Ding**{:.author}, **Jun Zhu**{:.author}.  
-  Preprint.
+  Preprint. arXiv:2502.04799.  
   [[pdf]](https://arxiv.org/abs/2502.04799)
   [[code]](https://github.com/miskcoo/ARNCG)
   [[abstract]](javascript:void(0);)
