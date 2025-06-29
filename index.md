@@ -2,16 +2,16 @@
 title: Yuhao Zhou | Home
 nav-title: Home
 ---
-I am a Ph.D. candidate (from fall, 2020) in the Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/), advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun). 
 
-I received my bachelor degree at Tsinghua University, majored in _Computer Science and Technology_. 
-Meanwhile, I also received my second bachelor degree, majored in _Mathematics_.
+
+I received my Ph.D. (2025, advised by [Prof. Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun)) and bachelor's degree (2020) in Computer Science and Technology from [Tsinghua University](https://www.tsinghua.edu.cn/en/).
+I also earned a second bachelor's degree (2020) in Mathematics.
 
 <!-- You can find me at [Google Scholar](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en) and [GitHub](http://github.com/miskcoo/)! -->
 
 E-mails: 
-yuhaoz.cs [at] gmail.com _(preferred)_; 
-zhouyh20 [at] mails.tsinghua.edu.cn.
+yuhaoz.cs [at] gmail.com; 
+<s>zhouyh20 [at] mails.tsinghua.edu.cn.</s>
 
 [[Google Scholar]](https://scholar.google.com/citations?user=GKLRbxoAAAAJ&hl=en)
 [[GitHub]](https://github.com/miskcoo/)
